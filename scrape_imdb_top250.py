@@ -1,4 +1,4 @@
-This code scraps al the data except genre
+# This code scraps al the data except genre
 
 
 from selenium import webdriver
