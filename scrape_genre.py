@@ -55,6 +55,6 @@ df = pd.DataFrame({
     'genre':genre,
 })
 
-df.to_csv('/Users/ranjanmittal/Desktop/data/Imdb_1.csv',index=False)
+df.to_csv('File_path.csv',index=False)
 
 driver.quit()
