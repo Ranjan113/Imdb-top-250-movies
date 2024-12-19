@@ -1,4 +1,4 @@
-# This code scraps al the data except genre
+# This code scraps all the data except genre
 
 
 from selenium import webdriver
@@ -68,7 +68,7 @@ for i in container:
 
     directors = []
     stars = []
-    # Find all links within the movie block
+
     for span in i.find_all('span', {'class': 'sc-2bfd043a-5 fIttnm'}):
         link = span.find('a')
         if 'dli-director-item' in link['class']:
