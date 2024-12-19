@@ -97,4 +97,4 @@ df = pd.DataFrame({
     'cast':all_stars,
 })
 
-df.to_csv('/Users/ranjanmittal/Desktop/data/Imdb.csv',index=False)
+df.to_csv('File_path',index=False)
